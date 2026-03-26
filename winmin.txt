@@ -1,0 +1,16 @@
+transport:
+  $type: tcpudp
+  tcp:
+    $type: shadowsocks
+    endpoint:
+      $type: websocket
+      url: wss://md.aceworlds.site:443/tcp-30c172b660a404be
+    cipher: chacha20-ietf-poly1305
+    secret: bamwJXISjGZxcQhgtos7
+  udp:
+    $type: shadowsocks
+    endpoint:
+      $type: websocket
+      url: wss://md.aceworlds.site:443/udp-c8fe40cb063c4a58
+    cipher: chacha20-ietf-poly1305
+    secret: bamwJXISjGZxcQhgtos7
