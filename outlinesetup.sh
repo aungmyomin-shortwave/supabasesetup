@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # --- CONFIGURATION ---
-DOMAIN="line.yfgfiusustgf.cfd"
+DOMAIN="md.aceworlds.site"
 LISTEN_PORT="5000"  # Internal Outline Port
-CADDY_PORT="8443"   # Public Caddy Port
+CADDY_PORT="443"   # Public Caddy Port
 
 # YOUR SPECIFIC KEY DATA
 KEY_ID="1"
