@@ -1,0 +1,16 @@
+transport:
+  $type: tcpudp
+  tcp:
+    $type: shadowsocks
+    endpoint:
+      $type: websocket
+      url: wss://strem.aceworlds.site/api/v1/upgrade
+    cipher: chacha20-ietf-poly1305
+    secret: YourStrongPassword123
+  udp:
+    $type: shadowsocks
+    endpoint:
+      $type: websocket
+      url: wss://strem.aceworlds.site/api/v1/upgrade
+    cipher: chacha20-ietf-poly1305
+    secret: YourStrongPassword123
